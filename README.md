@@ -7,8 +7,7 @@
 * [General info](#general-info)  
 * [Installation](#installation)  
 * [Technologies](#technologies)
-* [Algorihtms] (#algorithms)
-* [Known bugs] (#known-bugs)
+
 * [License](#license)
 
 ---
@@ -18,6 +17,7 @@
 * Fixed size (keeps width/height at 500px, while maintaining aspect ratio)
 * Fixed mine number
 * Efficient exploring algorithm
+* Flood fill to efficiently explore free cells
 
 ---
 
@@ -30,19 +30,6 @@
 ## Technologies  
 * C#
 * WinForms
-
----
-
-## Algorithms
-
-* Flood-Fill to explore empty spots
-
----
-
-## Known bugs
-
-* No winning screen (game doesn't end once the board is completed)
-* Initial choice may contain a mine
 
 ---
 
